@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AComponent } from './a/a.component';
-import { BComponent } from './b/b.component';
-import { BothComponent } from './both/both.component';
+import { OneComponent } from './one/one.component';
+import { TwoComponent } from './two/two.component';
+import { ThreeComponent } from './three/three.component';
 
 @NgModule({
-  declarations: [AComponent, BComponent, BothComponent],
   imports: [
     CommonModule
-  ]
+  ],
+  declarations: [OneComponent, TwoComponent, ThreeComponent]
 })
 export class SharedModule { }

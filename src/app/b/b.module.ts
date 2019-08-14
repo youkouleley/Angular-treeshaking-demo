@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
-import { BComponent } from '../shared/b/b.component';
-import { BothComponent } from '../shared/both/both.component';
 import { SharedModule } from '../shared/shared.module';
+import { OneComponent } from '../shared/one/one.component';
+import { TwoComponent } from '../shared/two/two.component';
 
 const routes: Routes = [
   {
-    path: 'b',
-    component : BComponent
+    path: 'one',
+    component: OneComponent
   },
   {
-    path: 'both',
-    component : BothComponent
+    path: 'two',
+    component: TwoComponent
   }
 ];
 

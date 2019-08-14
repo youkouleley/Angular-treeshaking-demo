@@ -24,4 +24,4 @@ const routes: Routes = [
     SharedModule
   ]
 })
-export default class BModule { }
+export class BModule { }
